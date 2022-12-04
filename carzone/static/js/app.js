@@ -114,9 +114,9 @@ $(function () {
             else {
                 $('.sticky-header').removeClass('header-shrink');
                 if($('.do-sticky').length < 1 && $('.fixed-header').length == 0 && $('.fixed-header2').length == 0) {
-                    $('.company-logo img').attr('src', 'static/img/logos/logo.png');
+                    $('.company-logo img').attr('src', '../static/img/logos/logo.png');
                 } else {
-                    $('.company-logo img').attr('src', 'static/img/logos/black-logo.png');
+                    $('.company-logo img').attr('src','../static/img/logos/black-logo.png');
                 }
             }
         } else {
